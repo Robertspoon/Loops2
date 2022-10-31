@@ -14,6 +14,13 @@ namespace Loops2
 
             Console.ReadKey(true);
         }
-        
+        static void PlayerUpdate()
+        {
+
+        }
+        static void DrawPlayer()
+        {
+
+        }
     }
 }
