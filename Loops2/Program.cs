@@ -12,15 +12,21 @@ namespace Loops2
         {
             Console.WriteLine("Loops");
 
+            int x;
+            int y;
+
+
             Console.ReadKey(true);
         }
         static void PlayerUpdate()
         {
-            
+           
         }
         static void DrawPlayer()
         {
-
+            Console.Clear();
+            Console.SetCursorPosition();
+            Console.Write(">");
         }
     }
 }
