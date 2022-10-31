@@ -14,6 +14,8 @@ namespace Loops2
 
             int x;
             int y;
+            x = 10;
+            y = -10;
 
 
             Console.ReadKey(true);
@@ -25,7 +27,7 @@ namespace Loops2
         static void DrawPlayer()
         {
             Console.Clear();
-            Console.SetCursorPosition();
+            Console.SetCursorPosition(x,y);
             Console.Write(">");
         }
     }
