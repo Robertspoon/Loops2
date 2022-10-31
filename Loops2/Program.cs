@@ -16,7 +16,7 @@ namespace Loops2
         }
         static void PlayerUpdate()
         {
-
+            
         }
         static void DrawPlayer()
         {
