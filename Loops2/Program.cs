@@ -8,12 +8,12 @@ namespace Loops2
 {
     internal class Program
     {
+
+          static int x;
+          static int y;
         static void Main(string[] args)
         {
             Console.WriteLine("Loops");
-
-            int x;
-            int y;
             x = 10;
             y = -10;
 
@@ -22,6 +22,7 @@ namespace Loops2
         }
         static void PlayerUpdate()
         {
+
            
         }
         static void DrawPlayer()
